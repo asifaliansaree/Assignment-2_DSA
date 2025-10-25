@@ -66,7 +66,7 @@ The system is modular and follows a multi-threaded design:
 📁 CS250-NetworkAnalyzer
 ├── network_monitor.cpp
 ├── README.md
-├── Assignment_2_Report_with_Code_and_Screenshots.docx
+├── Assignment_2_DSA.docx
 ├── screenshots/
 │   ├── capture_output.png
 │   ├── dissection_log.png
