@@ -49,31 +49,6 @@ The system is modular and follows a multi-threaded design:
 - Packet Simulation and Processing  
 
 ---
-
-## 📸 Screenshots
-Below are sample outputs (also included in the report):
-
-- Packet Capture Simulation  
-- Dissection of Ethernet, IPv4, TCP Layers  
-- Filtering and Replay Logs  
-- Final Backup Summary  
-
-*(See `/screenshots` folder for all images.)*
-
----
-
-## 🧾 Rubric Achievement
-| Criterion | Description | Marks |
-|------------|-------------|-------|
-| Data Structure Implementation | Custom Stack & Queue implemented | 3/3 |
-| Network Processing | Layered dissection and analysis | 3/3 |
-| Capture Management | Simulated multi-threaded capture | 3/3 |
-| Filtering & Replay | Replay with retries and backup | 3/3 |
-| Overall Completeness | Meets all CLOs | 3/3 |
-| **Total** | **Full Marks Achieved (15/15)** |
-
----
-
 ## 💻 How to Run
 1. Clone this repository  
    ```bash
@@ -85,9 +60,6 @@ Below are sample outputs (also included in the report):
    g++ network_monitor.cpp -o analyzer -pthread
    ./analyzer
    ```
-   *(On Windows, run in simulation mode as admin is not required.)*
-
----
 
 ## 📂 File Structure
 ```
@@ -102,15 +74,6 @@ Below are sample outputs (also included in the report):
 │   ├── backup_summary.png
 └── LICENSE
 ```
-
----
-
-## 🧩 References
-- CS-250 Course Material and Lecture Notes  
-- Linux Socket Programming Documentation (man7.org)  
-- C++ Reference: [cppreference.com](https://en.cppreference.com)  
-
----
 
 ### 🏁 Acknowledgment
 This project was completed as part of **CS250: Data Structures and Algorithms** under the supervision of **Dr. Fahad Ahmed Satti**, NUST SEECS.
